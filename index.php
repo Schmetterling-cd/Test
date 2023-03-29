@@ -1,5 +1,5 @@
 <?php 
-    include_once '/var/www/vlad/Test/autoload.php';
+    include_once './autoload.php';
     $controller = new EmployeeController();
     $controller->Listener();
     unset($controller);
