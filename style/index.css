@@ -1,0 +1,30 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+body{
+    margin: 0 ;
+    padding: 0 ;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/Pattern\ Illustrations.jpeg');
+}
+
+.screen{
+    width: 1600px;
+    max-height: 900px;
+    min-height: 300px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.8);
+}

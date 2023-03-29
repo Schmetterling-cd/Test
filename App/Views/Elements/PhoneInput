@@ -1,0 +1,6 @@
+<div class='row align-items-center justify-content-center mb-3'>
+    <div class='col-10'>
+        <label for='PhoneInput' class='form-label'>Phone number</label>
+        <input type='text' class='form-control' id='PhoneInput' name='{NUMBER}' data-mask='00 000-00-00' placeholder='xx yyy yy yy'>
+    </div>
+</div>

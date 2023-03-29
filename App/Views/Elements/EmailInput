@@ -1,0 +1,6 @@
+<div class='row align-items-center justify-content-center mb-3'>
+    <div class='col-10'>
+        <label for='EmailInput' class='form-label'>E-mail</label>
+        <input type='text' class='form-control' id='EmailInput' name='{NUMBER}' placeholder='example@email.com'>
+    </div>
+</div>
