@@ -23,7 +23,7 @@
 
     spl_autoload_register(function(string $class){
         
-        $path = '/var/www/vlad/Test';
+        $path = './';
         $files = glob_tree_search($path, "{$class}.php", null);
 
         $class = str_replace('\\', DIRECTORY_SEPARATOR, $class).'.php';
