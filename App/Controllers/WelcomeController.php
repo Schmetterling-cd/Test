@@ -1,7 +1,7 @@
 <?php 
 include_once './autoload.php';
 
-class EmployeeController{
+class WelcomeController{
 
     public function Listener(){
         if($_SERVER["REQUEST_METHOD"] == "GET"){

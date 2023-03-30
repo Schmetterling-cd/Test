@@ -1,6 +1,6 @@
 <?php 
     include_once './autoload.php';
-    $controller = new EmployeeController();
+    $controller = new WelcomeController();
     $controller->Listener();
     unset($controller);
 ?>
